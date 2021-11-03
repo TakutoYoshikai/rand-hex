@@ -1,0 +1,15 @@
+{
+  "name": "rand-hex",
+  "version": "1.0.0",
+  "description": "### Requirements",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "rand-hex": "./bin/rand-hex"
+  }
+}

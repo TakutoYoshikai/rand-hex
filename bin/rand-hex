@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const chars = "abcdef0123456789".split("");
+const len = parseInt(process.argv[2]);
+
+let str = "";
+for (let i = 0; i < len; i++) {
+  str += chars[Math.floor(Math.random() * chars.length)];
+}
+console.log(str);
